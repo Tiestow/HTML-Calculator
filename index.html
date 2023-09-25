@@ -12,29 +12,34 @@
 <div>
     <label>
         <textarea></textarea>
+        <button id="back" onclick="backSpace()"><-</button>
     </label>
 </div>
 
 <div>
     <div>
-        <button id="one" onclick="buttonClick()">1</button>
-        <button id="two">2</button>
-        <button id="three">3</button>
+        <button id="one" onclick="buttonClick(1)">1</button>
+        <button id="two" onclick="buttonClick(2)">2</button>
+        <button id="three" onclick="buttonClick(3)">3</button>
+        <button id="plus" >+</button>
     </div>
 
     <div>
-        <button id="four">4</button>
-        <button id="five">5</button>
-        <button id="six">6</button>
+        <button id="four" onclick="buttonClick(4)">4</button>
+        <button id="five" onclick="buttonClick(5)">5</button>
+        <button id="six" onclick="buttonClick(6)">6</button>
+        <button id="sub">-</button>
     </div>
 
     <div>
-        <button id="seven">7</button>
-        <button id="eight">8</button>
-        <button id="nine">9</button>
+        <button id="seven" onclick="buttonClick(7)">7</button>
+        <button id="eight" onclick="buttonClick(8)">8</button>
+        <button id="nine" onclick="buttonClick(9)">9</button>
+        <button id="mult">*</button>
     </div>
 
-    <button id="zero">0</button>
+    <button id="zero" onclick="buttonClick(0)">0</button>
+    <button id="dev">/</button>
 </div>
 
 </body>

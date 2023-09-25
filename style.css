@@ -7,8 +7,18 @@ button {
 textarea {
     width: 152px;
     height: 50px;
+    margin-bottom: -20px;
 }
 
 #zero {
+    margin-left: 54px;
+}
+
+#back {
+    height: 55px;
+    width: 55px;
+}
+
+#dev {
     margin-left: 54px;
 }
