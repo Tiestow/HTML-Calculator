@@ -11,8 +11,9 @@
 
 <div>
     <label>
-        <textarea></textarea>
+        <textarea readonly></textarea>
         <button id="back" onclick="backSpace()"><-</button>
+        <button id="clear" onclick="clear()">C</button>
     </label>
 </div>
 
@@ -35,11 +36,17 @@
         <button id="seven" onclick="buttonClick(7)">7</button>
         <button id="eight" onclick="buttonClick(8)">8</button>
         <button id="nine" onclick="buttonClick(9)">9</button>
-        <button id="mult">*</button>
+        <button id="mult" onclick="multiplication()">*</button>
     </div>
 
-    <button id="zero" onclick="buttonClick(0)">0</button>
-    <button id="dev">/</button>
+    <div>
+        <button id="zero" onclick="buttonClick(0)">0</button>
+        <button id="dev">/</button>
+    </div>
+
+    <div>
+        <button id="equals" onclick="equals()">=</button>
+    </div>
 </div>
 
 </body>
